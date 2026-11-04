@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4ebdd">
+
+  <title>Una carta para ti ❤️</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="scene">
+
+    <header class="intro">
+      <p class="eyebrow">UN PEQUEÑO DETALLE PARA TI</p>
+      <h1>Una carta especial</h1>
+      <p class="instruction" id="instruction">
+        Hay algo que llevo queriendo decirte...
+      </p>
+    </header>
+
+    <!-- SOBRE -->
+    <section class="envelope-area" id="envelopeArea">
+
+      <div class="envelope" id="envelope">
+
+        <div class="envelope-back"></div>
+
+        <div class="letter-preview"></div>
+
+        <div class="envelope-front"></div>
+
+        <div class="envelope-flap"></div>
+
+        <button
+          class="wax-seal"
+          id="waxSeal"
+          aria-label="Abrir la carta"
+        >
+          D
+        </button>
+
+      </div>
+
+      <p class="tap-hint" id="tapHint">
+        Toca la inicial para abrir 💌
+      </p>
+
+    </section>
+
+    <!-- CARTA -->
+    <section class="letter-modal hidden" id="letterModal">
+
+      <article class="paper">
+
+        <div class="paper-decoration">✦</div>
+
+        <p class="greeting">Hola, bonita.</p>
+
+        <h2>Quería decirte algo...</h2>
+
+        <div class="letter-text">
+
+          <p>
+            Quería tomarme un momento para decirte algo
+            que quizás no siempre encuentro la manera
+            de expresar con palabras.
+          </p>
+
+          <p>
+            Me gusta tenerte en mi vida, compartir momentos
+            contigo, conocerte un poquito más cada día y
+            descubrir todas esas pequeñas cosas que te
+            hacen ser tú.
+          </p>
+
+          <p>
+            No sé qué nos depare el futuro, pero hay algo
+            que sí tengo claro: lo que siento por ti es real.
+          </p>
+
+          <p class="love-message">
+            Te amo. ❤️
+          </p>
+
+          <p>
+            Y quería que tuvieras algo que pudieras abrir
+            cuando quisieras recordar cuánto significas
+            para mí.
+          </p>
+
+        </div>
+
+        <footer class="signature">
+          Con cariño,<br>
+          <strong>Charly.</strong>
+        </footer>
+
+        <div class="paper-decoration bottom-decoration">✦</div>
+<button class="close-letter" id="closeLetter">
+  Guardar mi carta ♥
+</button>
+      </article>
+
+    </section>
+
+    <footer class="footer">
+      Hecho con cariño, especialmente para ti.
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
